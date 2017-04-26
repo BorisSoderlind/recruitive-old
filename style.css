@@ -267,6 +267,65 @@ body.sidebar-left #wrap #sidebar .widget-container {
 
 /* @group Header */
 
+.site-header {
+	width: 100%;
+	height: 16px;
+	background: #FFF;
+}
+
+.button-group {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	display: inline;
+}
+
+ul.button-group li.button-group-jobb {
+	width: 45%;
+	height: 50px;
+	font-family: 'greycliffbold', sans-serif;
+	background: #282828;
+	text-align: center;
+	margin: 0;
+}
+
+ul.button-group li.button-group-cv {
+	width: 45%;
+	width: 60px;
+	font-family: 'greycliffbold', sans-serif;
+	background: #B5231F;
+	text-align: center;
+	margin: 0;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+ul.button-group li.button-group-jobb a,
+ul.button-group li.button-group-cv a {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+ul.button-group li.button-group-facebook {
+	width: 5%;
+	height: 50px;
+	font-family: 'greycliffbold', sans-serif;
+	background: #3B5998;
+	color: #FFF;
+	text-align: center;
+	margin: 0;
+}
+
+ul.button-group li.button-group-instagram {
+	width: 5%;
+	height: 50px;
+	font-family: 'greycliffbold', sans-serif;
+	background: #4C68D7;
+	color: #FFF;
+	text-align: center;
+	margin: 0;
+}
+
 #header {
 	clear: both;
 	margin-top: 16px;
