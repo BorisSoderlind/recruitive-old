@@ -273,57 +273,64 @@ body.sidebar-left #wrap #sidebar .widget-container {
 	background: #FFF;
 }
 
-.button-group {
+.btn-group.fixed {
 	width: 100%;
+	margin: 0;
 	position: fixed;
-	bottom: 0px;
-	display: inline;
+	bottom: 0;
+	display: inline-block;
 }
 
-ul.button-group li.button-group-jobb {
-	width: 45%;
+.btn.btn-jobb {
 	height: 50px;
+	border-radius: 0;
 	font-family: 'greycliffbold', sans-serif;
+	font-weight: normal;
+	color: #FFF;
+	text-decoration: underline;
 	background: #282828;
 	text-align: center;
-	margin: 0;
+	width: 20%;
 }
 
-ul.button-group li.button-group-cv {
-	width: 45%;
-	width: 60px;
+.btn.btn-cv {
+	height: 50px;
 	font-family: 'greycliffbold', sans-serif;
+	font-weight: normal;
+	color: #FFF;
+	text-decoration: underline;
 	background: #B5231F;
 	text-align: center;
 	margin: 0;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
+	width: 60%;
 }
 
-ul.button-group li.button-group-jobb a,
-ul.button-group li.button-group-cv a {
+.btn.btn-facebook {
+	height: 50px;
+	border-radius: 0;
+	font-family: 'greycliffbold', sans-serif;
 	color: #FFF;
 	text-decoration: underline;
-}
-
-ul.button-group li.button-group-facebook {
-	width: 5%;
-	height: 50px;
-	font-family: 'greycliffbold', sans-serif;
+	font-weight: normal;
 	background: #3B5998;
 	color: #FFF;
 	text-align: center;
-	margin: 0;
+	width: 10%;
 }
 
-ul.button-group li.button-group-instagram {
-	width: 5%;
+.btn.btn-instagram {
 	height: 50px;
+	border-radius: 0;
 	font-family: 'greycliffbold', sans-serif;
+	color: #FFF;
+	text-decoration: underline;
+	font-weight: normal;
 	background: #4C68D7;
 	color: #FFF;
 	text-align: center;
-	margin: 0;
+	width: 10%;
 }
 
 #header {
