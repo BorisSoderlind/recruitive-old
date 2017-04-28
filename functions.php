@@ -1416,3 +1416,22 @@ add_action( 'admin_bar_menu', 'skeleton_remove_admin_bar_pages', 999 );
 function skeleton_remove_admin_bar_pages($wp_admin_bar) {
 		$wp_admin_bar->remove_node( 'background' );
 }
+
+/**
+* Logotype uploader
+*/
+
+function recruitive_logo_uploader( $wp_customize ) {
+	$wp_customize->add_section( 'recruitive_logo_section' , array(
+		'title'       => __( 'Logo', 'recruitive' ),
+		'priority'    => 30,
+		'description' => 'Här laddar du upp din logotyp - se fan till att den är bra.',
+	) );
+	$wp_customize->add_setting( 'recruitive_logo' );
+	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'recruitive_logo', array(
+		'label'    => __( 'Logo', 'recruitive' ),
+		'section'  => 'recruitive_logo_section',
+		'settings' => 'recruitive_logo',
+	) ) );
+}
+add_action( 'customize_register', 'recruitive_logo_uploader' );
