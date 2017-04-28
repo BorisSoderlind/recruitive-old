@@ -286,6 +286,9 @@ body.sidebar-left #wrap #sidebar .widget-container {
 	border-radius: 0;
 	font-family: 'greycliffbold', sans-serif;
 	font-weight: normal;
+	font-size: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
 	color: #FFF;
 	text-decoration: underline;
 	background: #282828;
@@ -297,6 +300,9 @@ body.sidebar-left #wrap #sidebar .widget-container {
 	height: 50px;
 	font-family: 'greycliffbold', sans-serif;
 	font-weight: normal;
+	font-size: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
 	color: #FFF;
 	text-decoration: underline;
 	background: #B5231F;
@@ -311,6 +317,9 @@ body.sidebar-left #wrap #sidebar .widget-container {
 	height: 50px;
 	border-radius: 0;
 	font-family: 'greycliffbold', sans-serif;
+	font-size: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
 	color: #FFF;
 	text-decoration: underline;
 	font-weight: normal;
@@ -324,6 +333,9 @@ body.sidebar-left #wrap #sidebar .widget-container {
 	height: 50px;
 	border-radius: 0;
 	font-family: 'greycliffbold', sans-serif;
+	font-size: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
 	color: #FFF;
 	text-decoration: underline;
 	font-weight: normal;
