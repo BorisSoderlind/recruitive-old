@@ -219,9 +219,6 @@ p code {display: inline;}
 body {
 	line-height: 150%;
 	-webkit-text-size-adjust: 100%;
-	background-image: url('images/border_top.png');
-	background-repeat: repeat-x;
-	background-position: top left;
 }
 
 /* @end */
@@ -350,13 +347,11 @@ body.sidebar-left #wrap #sidebar .widget-container {
 }
 
 #header {
-	clear: both;
-	margin-top: 16px;
+	width: 100%;
+	background: #FFF;
 }
 
 #header .inner {
-	padding-top: 15px;
-	padding-bottom: 20px;
 }
 
 #header .header_extras {
